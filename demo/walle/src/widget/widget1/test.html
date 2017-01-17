@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <script type="text/javascript" src="../../../../lib/jquery/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/Widget1.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function(){
+            var oWidget1 = new $.Widget1();
+            oWidget1.init("id1", "parentId", "test");
+        });
+    </script>
+</head>
+<body>
+    <div id="parentId" style="width: 250px;height: 50px;background: #ff0000;">
+
+    </div>
+</body>
+</html>
